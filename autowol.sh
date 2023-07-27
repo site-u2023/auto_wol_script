@@ -43,4 +43,3 @@ wake_up () {
 while sleep $INTERVAL; do
 wake_up $PORT $TARGET $INTERFACE $MAC;
 done
-EOF
